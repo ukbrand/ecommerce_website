@@ -1,0 +1,388 @@
+.mt IMG{
+			width: 100%;
+			height: 250px;
+			border-radius: 20px 20px 0px 0px;
+
+		}
+
+.mt     {
+
+			height: 520px;
+			width: 30%;
+			
+			text-align:center;
+			display: inline-block;
+			margin-left: 30px;
+			border-radius: 20px;
+			margin-top: 30px;
+			box-shadow: 1px 9px 9px -2px;
+
+		}
+
+.mt button{
+
+				border: none;
+				padding: 10px;
+				background: gold;
+				color:black;
+				font-weight: 700;
+				box-shadow:2px 2px 5px -1px skyblue;
+		  }
+
+.mt p{
+			font-weight: 300;
+	 }
+ol{
+		list-style-type: none;
+		margin-left: 400px;
+  }
+
+li{
+		display: inline-block;
+		margin-left: 30px;
+		font-weight:800;
+		font-size: 20px;
+		cursor:pointer;
+		font-style: arial;
+  }
+
+
+ 
+
+.side{
+
+		height: 700px;
+		width: 100%;
+		 
+		animation-name: uk;
+		animation-direction: alternate-reverse;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+}
+
+
+				/*animariton in the side bar*/
+
+
+@keyframes uk{
+
+	0%{
+		background-image: url('17.jpg');
+		background-size: cover;		
+	}
+	10%{
+		background-image: url('16.jpg');
+		background-size: cover;
+	}
+	20%{
+		background-image: url('11.jpg');		
+		background-size: cover;		
+	}
+	30%{
+		background-image: url('12.jpg');	
+		background-size: cover;		
+	}
+    40%{
+		background-image: url('20.jpg');
+		background-size: cover;		
+	}
+    50%{
+		background-image: url('26.jpg');	
+		background-size: cover;		
+	}
+    60%{
+		background-image: url('23.jpg');		
+		background-size: cover;
+	}
+    70%{
+		background-image: url('11.jpg');
+		background-size: cover;
+	}
+    80%{
+		background-image: url('12.jpg');
+		background-size: cover;
+	}
+	90%{
+		background-size: cover;
+		background-image: url('27.jpg');
+	}
+	100%{
+		background-size: cover;
+		background-image: url('14.jpg');
+	}
+
+}
+
+a{
+
+		text-decoration: none;
+		color: black;
+}
+a:hover{
+
+		color:pink;
+		  
+}
+
+.srt{
+
+		background: black;
+		color: white;
+		padding: 0 5px 0 5px;
+		padding: 6px;
+		font-weight: 5;
+		box-shadow: 0px 0px 5px 3px green;
+	
+}
+
+.input{
+		 position: relative;
+		 right:130px;
+		 padding: 5px 60px 5px 10px;
+		 outline: none;
+		 border: none;
+		 box-shadow: 8px 2px 19px -4px skyblue;
+}
+.footer{
+
+		height: 380px;
+		width: 100%;
+		border: 2px solid black;
+		background:black;
+		margin-top: 20px;
+}
+.F_BOX{
+		color: white;
+		position: relative;
+		top: 30px;
+		left: 50px;
+}
+
+.soc{
+
+		margin-left: 450px;
+}
+
+.soc img{
+
+		height: 56px;
+		width:7%;
+		background-color: white;
+		margin-left: 30px;
+
+		 
+}
+.f_divB{
+
+		display: inline-block; 
+		height: 200px;
+		width: 15%;
+		font-size: 20px;
+		margin-left: px;
+		color: white;
+}
+.s{
+		margin-left: 60px;
+}
+.sub{
+
+		position: relative;
+		bottom: 23px;
+		left: 120px;
+		border: none;
+		background: black;
+		color: white;
+		font-weight: 700;
+}
+.skd{
+
+		display: inline;
+		margin-left: 120px;
+}
+
+.logo {
+
+		height: 70px;
+		width: 10%;
+		position: relative;	
+		top: 75px;
+		left: 40px;
+}
+.logo2{
+		height: 20px;
+		width: 2%;
+		position: absolute;	
+		top: 94px;
+		left: 510px;
+
+}
+.big{
+
+		margin-left: 410px;
+		color: white;
+		position: relative;
+		top: 30px;
+}
+
+.Body{
+
+	height: 1645px;
+	width: 100%;
+	 
+	margin-top: 30px;
+}
+
+.box1{
+
+	height: 400px;
+	width: 100%;
+	 
+}
+
+.b1{
+
+	height: 340px;
+	width: 20%;
+	 
+	margin-left: 45px;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 1px 9px 9px -2px;
+
+}
+
+.b1 img{
+
+	width: 100%;
+}
+
+.b1 h1{
+
+	font-size: 30px;
+	text-align: center;
+}
+
+.input1{
+
+		 padding: 5px 60px 5px 10px;
+		 outline: none;
+		 border: none;
+		 border-radius: 2px;
+		 box-shadow:  inset 2px 3px 11px -6px black,inset 2px 3px 11px 19px white;
+		 background: #dfebff;
+		 margin-top: 10px;
+		 color: black;
+}
+
+#form{
+
+	height: 500px;
+
+	width: 40%;
+	margin-left: 370px;
+	text-align: center;
+}
+.t{
+	margin-top: 100px;
+}
+
+
+.ctm{
+	position: relative;
+	bottom: 60px;
+}
+
+ 
+
+.b1 button{
+
+				border: none;
+				padding: 10px;
+				background:ffffff;
+				color:black;
+				
+				margin-left: 20px;
+				font-weight: 700;
+				border-radius: 6px;
+				box-shadow: inset 2px 2px 5px -1px black;
+		  }
+
+.buy_Nav{
+
+	position: relative;
+	right: 19px;
+
+}
+
+.b1 button:hover{
+
+				border: none;
+				padding: 10px;
+				background:skyblue;
+				color:black;
+				cursor: pointer;
+				margin-left: 20px;
+				font-weight: 700;
+				border-radius: 6px;
+				box-shadow: inset 2px 2px 5px -1px black;
+}
+
+.b1 .add_Card:hover{
+
+				border: none;
+				padding: 10px;
+				background:gold;
+				color:black;
+				
+				margin-left: 20px;
+				font-weight: 700;
+				border-radius: 6px;
+				box-shadow: inset 2px 2px 5px -1px black;
+}
+
+ .buy_Nav a:hover{
+
+	color: black;
+}
+
+.sell{
+
+	border: none;
+	outline: none;
+	font-weight:700;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+ 
+
+ .add:hover{
+
+				border: none;
+				padding: 10px;
+				background:gold;
+				color:black;
+				
+				 
+				border-radius: 6px;
+				box-shadow: inset 2px 2px 5px -1px black;
+}
+
+.add{
+
+				border: none;
+				padding: 10px;
+				background: white;
+				color:black;
+				 font-weight: 600;
+
+				cursor: pointer;
+				margin-top: 10px;
+				border-radius: 6px;
+				box-shadow: inset 2px 2px 5px -1px black;
+}
+
+.k{
+	 margin-right: 20px;
+}
